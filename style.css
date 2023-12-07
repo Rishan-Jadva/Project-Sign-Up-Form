@@ -2,3 +2,63 @@
     font-family: Norse-Bold;
     src: url('/fonts/Norse-Bold.otf');
 }
+
+@font-face {
+    font-family: Roboto;
+    src: url('/fonts/Roboto-Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.section1{
+    position: relative;
+    width: 25vw;
+    height: 100vh;
+}
+
+.section1 img{
+    width: inherit;
+    height: inherit;
+}
+
+.background-flex{
+    position: absolute;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 25%;
+    background-color: rgb(25, 25, 25, 0.5);
+}
+
+.background-flex img{
+    width: 7.5vw;
+    margin: 10px 0;
+}
+
+.background-flex p{
+    font: 7.5vw Norse-Bold;
+    color: #ffffff;
+}
+
+.section1 > p{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+a:link{
+    color:#ffffff;
+}
+
+.container{
+    display: flex;
+}
