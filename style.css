@@ -5,13 +5,18 @@
 
 @font-face {
     font-family: Roboto;
-    src: url('/fonts/Roboto-Regular.ttf');
+    src: url('/fonts/Roboto/Roboto-Medium.ttf');
+}
+
+@font-face {
+    font-family: Heebo;
+    src: url('/fonts/Heebo/Heebo-VariableFont_wght.ttf');
 }
 
 *{
     margin: 0;
     padding: 0;
-    font-family: Roboto;
+    font-family: Heebo, Roboto;
 }
 
 .section1{
@@ -61,4 +66,40 @@ a:link{
 
 .container{
     display: flex;
+}
+
+.section2{
+    margin: auto 0;
+}
+
+.section2 > p{
+    margin: 0 50px;
+}
+
+.form{
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.form p{
+    width: 100%;
+    margin: 0 50px;
+}
+
+.label{
+    margin: 10px 50px;
+}
+label{
+    font-size: 0.75em;
+    font-family: Roboto;
+}
+button{
+    margin: 15px 50px;
+}
+
+.acc{
+    margin: 0 50px;
+}
+
+.name, .contact, .pwd{
+
 }

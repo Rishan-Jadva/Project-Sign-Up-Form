@@ -19,32 +19,52 @@
             </p>
         </div>
         <div class="section2">
-            <p><b>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign up <em>now</em> to get started.</b></p>
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign up <em>now</em> to get started.</p>
             <p>You <em>know</em> you want to.</p>
             <form action="">
                 <div class="form">
                     <p>Let's do this!</p>
-                    <label for="f_name">FIRST NAME
-                        <input id="f_name" type="text" required>
-                    </label>
-                    <label for="l_name">LAST NAME
-                        <input id="l_name" type="text" required>
-                    </label>
-                    <label for="email">EMAIL
-                        <input type="email" id="email" required>
-                    </label>
-                    <label for="phone">PHONE NUMBER
-                        <input type="tel" id="phone" required>
-                    </label>
-                    <label for="pwd">PASSWORD
-                        <input type="password" id="pwd" required>
-                    </label>
-                    <label for="confirm-pwd">CONFIRM PASSWORD
-                        <input type="password" id="confirm-pwd" required>
-                    </label>
+                    <div class="labelgroup">
+                        <div class="name">
+                            <div class="label">
+                                <label for="f_name">FIRST NAME</label>
+                                <br>
+                                <input id="f_name" type="text">
+                            </div>
+                            <div class="label">
+                                <label for="l_name">LAST NAME</label>
+                                <br>
+                                <input id="l_name" type="text">
+                            </div>
+                        </div>
+                        <div class="contact">
+                            <div class="label">
+                                <label for="email">EMAIL</label>
+                                <br>
+                                <input id="email" type="email">
+                            </div>
+                            <div class="label">
+                                <label for="phone">PHONE NUMBER</label>
+                                <br>
+                                <input id="phone" type="tel">
+                            </div>
+                        </div>
+                        <div class="pwd">
+                            <div class="label">
+                                <label for="password">PASSWORD</label>
+                                <br>
+                                <input id="password" type="password">
+                            </div>
+                            <div class="label">
+                                <label for="confirm-password">CONFIRM PASSWORD</label>
+                                <br>
+                                <input id="confirm-password" type="password">
+                            </div>
+                        </div>
+                    </div>
                 </div> 
                 <button type="submit">Create Account</button>
-                <p>Already have an account? <a href="">Log in</a></p>
+                <p class="acc">Already have an account? <a href="">Log in</a></p>
             </form>
         </div>
     </div>
